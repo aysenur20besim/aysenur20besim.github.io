@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function bgSize() {
     let div = document.getElementById("insider");
-    let height = (div.clientHeight * 100) / 99.5;
+    let height = (div.clientHeight * 100) / 92.5;
     document.getElementById("bg").style.height = "" + height + "px";
 }
