@@ -6,8 +6,15 @@ document.addEventListener("DOMContentLoaded", () => {
             '<div><img src="photos/' + i + '.jpg" class="img"/></div> ';
     }
     div.innerHTML += '<div><img src="photos/2.jpg" class="img"/></div> ';
+    window.setTimeout(bgSize, 7000);
     /*
 	div.innerHTML +=
         '<div><img src="photos/1.jpg"style="width: 100%; border-radius: 12px"/></div> ';
 	*/
 });
+
+function bgSize() {
+    let div = document.getElementById("insider");
+    let height = (div.clientHeight * 100) / 99.5;
+    document.getElementById("bg").style.height = "" + height + "px";
+}

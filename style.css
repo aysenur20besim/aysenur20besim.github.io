@@ -42,14 +42,14 @@ body {
 }
 
 .bg {
-    height: 24000px;
+    height: 22000px;
     width: 100%;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url("bg2.webp");
+    background-image: url("deneme2.webp");
     background-repeat: repeat-y;
     background-position: 50%;
 }
