@@ -11,10 +11,9 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    align-content: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 .insider {
